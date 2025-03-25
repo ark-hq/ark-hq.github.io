@@ -1,0 +1,63 @@
+
+.buttons{
+  flex-direction: row;
+  display: flex;
+  
+}
+.button{
+  padding: 10%;
+}
+
+.video_bg{
+  z-index: -1;
+  width: 100vw;
+  position: absolute;
+}
+.main{
+  margin-bottom: 100%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.home{
+  color: white;
+  height: 100vh;
+}
+.home_content{
+  text-align: center;          /* Center the text */
+  padding: 50px;               /* Padding around the content */
+  flex-grow: 1;  
+}
+
+.team{
+  background-color: white;
+  height: 100vh;
+  align-content: center;
+}
+.team_content{
+  padding-top: 10vh;
+  margin: 20px;
+  align-items: center;
+}
+.quotes{
+  flex: content;
+}
+
+.navbar{
+  z-index: 2;
+  position: sticky;
+}
+
+.creator{
+  color: white;
+  position:absolute;
+  align-items: center;
+}
+
+.creator_content{
+  align-items: center;
+}
+
+.footer{
+  width: 100%;
+}
+

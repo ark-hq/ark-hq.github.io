@@ -1,0 +1,15 @@
+.button {
+    width: max-content;
+    height: auto;
+    background-color: #1F2644;
+    padding: 15%;
+    margin: 1%;
+    border-radius: 20%;
+    color:white;
+    
+}
+
+.button:hover{
+    background-color: white;
+    color: #1F2644;
+}

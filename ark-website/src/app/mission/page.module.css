@@ -1,0 +1,19 @@
+/* body{
+    background-image: url("../../../public/inside_plane.png");  
+    background-position: center;
+    background-size: cover;
+} */
+
+.container{
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 20%;
+}
+
+.footer{
+    position: static;
+}

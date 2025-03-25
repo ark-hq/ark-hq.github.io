@@ -1,0 +1,46 @@
+/* navbar.module.css */
+
+/* Main navbar container */
+.navbar {
+    display: flex;                  /* Use flexbox for layout */
+    justify-content: space-between; /* Space out the logo and nav tabs */
+    align-items: center;            /* Vertically center the items */
+    padding: 10px 20px;             /* Add some padding for spacing */
+    color: #1F2644;
+    background-color: #fffefea8;         /* Background color of the navbar */
+  }
+  
+  /* Logo (navlogo) aligned to the left */
+  .navlogo a {
+    font-size: 24px;                /* Logo text size */
+    color: #fff;                    /* Logo text color */
+    text-decoration: none;          /* Remove underline */
+  }
+  
+  /* Navtabs are the menu items */
+  .navtabs {
+    list-style: none;               /* Remove bullets */
+    display: flex;                  /* Arrange items horizontally */
+    margin: 0;                       /* Remove margin */
+    padding: 0;                      /* Remove padding */
+  }
+  
+  /* Each nav component (menu item) */
+  .navcomponent {
+    margin-left: 20px;              /* Space between each menu item */
+  }
+  
+  .navcomponent a {
+    color: #fff;                    /* Link color */
+    text-decoration: none;          /* Remove underline */
+    font-size: 18px;                /* Font size for links */
+    padding: 10px 15px;             /* Padding for clickable area */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+  }
+  
+  /* Hover effect for menu items */
+  .navcomponent:hover {
+    text-decoration: underline;
+    border-radius: 5px;             /* Rounded corners on hover */
+  }
+  

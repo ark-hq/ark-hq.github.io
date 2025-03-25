@@ -1,0 +1,81 @@
+/* .footer {
+    color: white;
+}
+
+.socials{
+    position: relative;
+    padding-right: 0rem;
+} */
+
+/* Footer styles */
+.footer {
+    width: 100%;
+    background-color: #3333333d; /* Dark background for footer */
+    padding: 20px;
+    color: #fff;  /* Text color for the footer */
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;  /* Limiting the width for better layout */
+    margin: 0 auto;     /* Center the footer content */
+  }
+  
+  .subscribeSection {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Left align the subscribe section */
+    margin-left: 20px;
+  }
+  
+  .subscribeSection h1 {
+    margin-bottom: 10px; /* Spacing between title and paragraph */
+  }
+  
+  .subscribeSection p {
+    margin-bottom: 15px; /* Spacing between paragraph and input */
+  }
+  
+  .subscribeSection input {
+    padding: 10px;
+    width: 250px;  /* Control the width of the input field */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .subscribeSection button {
+    padding: 10px 20px;
+    background-color: #1F2644;  /* A bright button color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .subscribeSection button:hover {
+    background-color: white;  /* But#ton hover effect */
+    color: #1F2644;
+  }
+  
+  /* Social media links */
+  .socialMediaLinks {
+    display: flex;
+    gap: 15px;  /* Space between icons */
+  }
+  
+  .socialMediaLinks a {
+    display: inline-block;
+  }
+  
+  .socialMediaLinks img {
+    width: 30px;  /* Size of the social media icons */
+    height: 30px;
+    transition: transform 0.3s ease;
+  }
+  
+  .socialMediaLinks img:hover {
+    transform: scale(1.1);  /* Icon hover effect (slight zoom) */
+  }
