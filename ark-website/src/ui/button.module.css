@@ -1,12 +1,14 @@
 .button {
-    width: max-content;
-    height: auto;
+    max-width: max-content;
+    height:fit-content;
     background-color: #1F2644;
-    padding: 15%;
+    padding: 1%;
     margin: 1%;
-    border-radius: 20%;
+    border-radius: 30%;
     color:white;
-    
+    align-items: center;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
 .button:hover{

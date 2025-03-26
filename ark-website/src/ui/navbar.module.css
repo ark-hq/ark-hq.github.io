@@ -8,6 +8,10 @@
     padding: 10px 20px;             /* Add some padding for spacing */
     color: #1F2644;
     background-color: #fffefea8;         /* Background color of the navbar */
+    position: sticky;
+    top: 0; /* This makes the navbar stick to the top */
+    width: 100%; /* Make sure the navbar spans the whole width of the page */
+    z-index: 1000; /* Keeps the navbar above other elements */
   }
   
   /* Logo (navlogo) aligned to the left */

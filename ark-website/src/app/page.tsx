@@ -6,10 +6,9 @@ import Navbar from "@/ui/navbar";
 
 export default function Home() {
   return (
+    <div>
       <body className={styles.body}>
-        <div className={styles.navbar}>
-          <Navbar></Navbar>
-        </div>
+        <Navbar/>
         <main className={styles.main}>
           <section className={styles.home}>
             <div className={styles.home_content}>
@@ -20,14 +19,10 @@ export default function Home() {
               <h2>All aboard for a journey of a lifetime.</h2><br/>
               <h2>One platform to discover and create endless memories across the globe.</h2>
               <div className={styles.buttons}>
-                <div className={styles.button}>
-                  <Button text="Log in" link="login link" color={true}/>
-                </div>
-                <div className={styles.button}>
-                  <Button text="Sign up" link="sign up link" color={false}/>
-                </div>
+                <Button text="Log in" link="login link" color={true}/>
+                <Button text="Sign up" link="sign up link" color={false}/>
               </div>
-              </div>
+            </div>
           </section>
 
           <section className={styles.creator}>
@@ -39,17 +34,14 @@ export default function Home() {
               <br/>
               <h2>We can&apos;t wait to see where you&apos;ll take us!</h2>
               
-              <div className={styles.buttons}>
-                <Button text="Apply" color={true} link="link to applcation"/>
-              </div>
+              <Button text="Apply" color={true} link="link to applcation"/>
               
               <h2>Dream With Us</h2>
             </div>
           </section>
         </main>
-        <div className={styles.footer}>
-        <Footer/>
-        </div>
-      </body>
+        <Footer/> 
+      </body>   
+    </div>
   );
 }

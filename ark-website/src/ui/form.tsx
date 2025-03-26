@@ -1,6 +1,6 @@
 'use client'
 import React, { useState } from 'react';
-import styles from "@/ui/forms.module.css"
+import styles from "@/ui/form.module.css"
 import Button from './button';
 
 // Type for form input data
@@ -64,9 +64,7 @@ const Form: React.FC = () => {
               onChange={handleChange}
               />
           </div>
-          <div className={styles.button}>
-            <Button link='submit' text='Submit' color={true}/>
-          </div>
+          <Button link='submit' text='Submit' color={true}/>
         </div>
         </form>
     </div>
